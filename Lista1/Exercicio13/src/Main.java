@@ -8,7 +8,7 @@ public class Main {
 
         raio = in.nextDouble();
 
-        rr = (raio * raio) * 3.14;
+        rr = Math.pow(raio, 2) * Math.PI;
 
         System.out.println("A sua área é: " + rr);
 
