@@ -4,13 +4,13 @@ public class Main {
 
         double medida ,result;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a medida em milímetro:");
+        System.out.println("Digite a medida em milímetros: ");
 
-        medida = in.nextInt();
+        medida = in.nextDouble();
 
         result = medida / 25.4;
 
-        System.out.println("A Conversão é:" + result + " Polegadas");
+        System.out.println("A Conversão é: " + result + " Polegadas");
 
 
     }

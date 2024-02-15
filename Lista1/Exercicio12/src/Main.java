@@ -6,11 +6,11 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite a primeira nota:");
 
-        n1 = in.nextInt();
+        n1 = in.nextDouble();
 
         System.out.println("Digite a segunda nota:");
 
-        n2 = in.nextInt();
+        n2 = in.nextDouble();
 
         resultn1 = n1 * 1;
 

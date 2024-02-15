@@ -6,7 +6,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite a distância percorrida em milhas:");
 
-        distancia = in.nextInt();
+        distancia = in.nextDouble();
 
         result = distancia * 1.609;
 

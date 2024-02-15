@@ -6,11 +6,11 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite o raio do cilindro:");
 
-        raio = in.nextInt();
+        raio = in.nextDouble();
 
         System.out.println("Digite a altura do cilindro:");
 
-        altura = in.nextInt();
+        altura = in.nextDouble();
 
         conta = raio * raio;
         conta2 = 3.14 * conta;

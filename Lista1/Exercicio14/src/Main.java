@@ -6,11 +6,11 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite a base do triângulo retângulo:");
 
-        base = in.nextInt();
+        base = in.nextDouble();
 
         System.out.println("Digite a altura do triângulo retângulo:");
 
-        altura = in.nextInt();
+        altura = in.nextDouble();
 
         conta = base * altura;
 

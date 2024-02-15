@@ -6,7 +6,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite a temperatura em Celsius:");
 
-        temperatura = in.nextInt();
+        temperatura = in.nextDouble();
 
         result = temperatura * 1.8 + 32;
 

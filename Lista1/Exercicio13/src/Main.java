@@ -6,7 +6,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite o raio do circulo:");
 
-        raio = in.nextInt();
+        raio = in.nextDouble();
 
         rr = raio * raio;
 

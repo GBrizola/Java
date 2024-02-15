@@ -6,15 +6,15 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite a velocidade inicial:");
 
-        velIni = in.nextInt();
+        velIni = in.nextDouble();
 
         System.out.println("Digite a aceleração:");
 
-        acel = in.nextInt();
+        acel = in.nextDouble();
 
         System.out.println("Digite o tempo de percurso:");
 
-        temp = in.nextInt();
+        temp = in.nextDouble();
 
         conta = acel * temp;
         result = velIni + conta;

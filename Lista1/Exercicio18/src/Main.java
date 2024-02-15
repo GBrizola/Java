@@ -6,11 +6,11 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Digite a variavel A:");
 
-        a = in.nextInt();
+        a = in.nextDouble();
 
         System.out.println("Digite a variavel B:");
 
-        b = in.nextInt();
+        b = in.nextDouble();
 
         result = -b / a;
 
