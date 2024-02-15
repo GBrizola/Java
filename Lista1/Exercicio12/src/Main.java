@@ -4,11 +4,11 @@ public class Main {
 
         double n1 ,n2 ,resultn1, resultn2, result, resultf;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a primeira nota:");
+        System.out.println("Digite a primeira nota: ");
 
         n1 = in.nextDouble();
 
-        System.out.println("Digite a segunda nota:");
+        System.out.println("Digite a segunda nota: ");
 
         n2 = in.nextDouble();
 
@@ -20,7 +20,7 @@ public class Main {
 
         resultf = result / 3;
 
-        System.out.println("A média da nota é:" + resultf);
+        System.out.println("A média da nota é: " + resultf);
 
 
     }

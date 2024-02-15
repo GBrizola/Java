@@ -4,7 +4,7 @@ public class Main {
 
         double raio, rr, result;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite o raio do circulo:");
+        System.out.println("Digite o raio do circulo: ");
 
         raio = in.nextDouble();
 
@@ -14,7 +14,7 @@ public class Main {
 
 
 
-        System.out.println("A sua área é:" + result);
+        System.out.println("A sua área é: " + result);
 
 
     }

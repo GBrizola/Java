@@ -8,11 +8,11 @@ public class Main {
 
         velIni = in.nextDouble();
 
-        System.out.println("Digite a aceleração:");
+        System.out.println("Digite a aceleração: ");
 
         acel = in.nextDouble();
 
-        System.out.println("Digite o tempo de percurso:");
+        System.out.println("Digite o tempo de percurso: ");
 
         temp = in.nextDouble();
 
@@ -20,7 +20,7 @@ public class Main {
         result = velIni + conta;
 
 
-        System.out.println("A sua velocidade final é:" + result);
+        System.out.println("A sua velocidade final é: " + result);
 
 
     }

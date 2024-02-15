@@ -4,13 +4,13 @@ public class Main {
 
         double vkm ,vms;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a velocidade em M/s:");
+        System.out.println("Digite a velocidade em M/s: ");
 
         vms = in.nextDouble();
 
         vkm = vms * 3.6;
 
-        System.out.println("A Conversão é:" + vkm + " Km/h");
+        System.out.println("A Conversão é: " + vkm + "Km/h");
 
 
     }

@@ -4,7 +4,7 @@ public class Main {
 
         double vkm ,vms;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a velocidade em Km/h:");
+        System.out.println("Digite a velocidade em Km/h: ");
 
         vkm = in.nextDouble();
 

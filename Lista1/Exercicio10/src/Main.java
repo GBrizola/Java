@@ -4,13 +4,13 @@ public class Main {
 
         double distancia ,result;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a distância percorrida em milhas:");
+        System.out.println("Digite a distância percorrida em milhas: ");
 
         distancia = in.nextDouble();
 
         result = distancia * 1.609;
 
-        System.out.println("A Conversão é:" + result + " quilômetros");
+        System.out.println("A Conversão é: " + result + " quilômetros");
 
 
     }

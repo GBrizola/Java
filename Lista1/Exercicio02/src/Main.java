@@ -4,7 +4,7 @@ public class Main {
 
         int n1, result;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite um número inteiro:");
+        System.out.println("Digite um número inteiro: ");
 
         n1 = in.nextInt();
 

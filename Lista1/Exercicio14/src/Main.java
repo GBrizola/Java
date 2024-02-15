@@ -4,11 +4,11 @@ public class Main {
 
         double base, altura, result, conta;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a base do triângulo retângulo:");
+        System.out.println("Digite a base do triângulo retângulo: ");
 
         base = in.nextDouble();
 
-        System.out.println("Digite a altura do triângulo retângulo:");
+        System.out.println("Digite a altura do triângulo retângulo: ");
 
         altura = in.nextDouble();
 

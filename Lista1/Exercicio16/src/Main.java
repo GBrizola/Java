@@ -8,7 +8,7 @@ public class Main {
 
         raio = in.nextDouble();
 
-        System.out.println("Digite a altura do cilindro:");
+        System.out.println("Digite a altura do cilindro: ");
 
         altura = in.nextDouble();
 
@@ -20,7 +20,7 @@ public class Main {
 
 
 
-        System.out.println("O seu Volume é:" + result);
+        System.out.println("O seu Volume é: " + result);
 
 
     }
