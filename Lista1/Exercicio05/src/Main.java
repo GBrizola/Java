@@ -2,15 +2,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        double velocidade ,result;
+        double vkm ,vms;
         Scanner in = new Scanner(System.in);
         System.out.println("Digite a velocidade em Km/h:");
 
-        velocidade = in.nextInt();
+        vkm = in.nextInt();
 
-        result = velocidade / 3.6;
+        vms = vkm / 3.6;
 
-        System.out.println("A Conversão é: " + result + "m/s");
+        System.out.println("A Conversão é: " + vms + "m/s");
 
 
     }
