@@ -12,11 +12,9 @@ public class Main {
 
         altura = in.nextInt();
 
-        conta = (raio * raio);
+        conta = raio * raio;
 
-        result = (3.14 * conta * altura);
-
-
+        result = 3.14 * conta * altura;
 
         System.out.println("O seu Volume é:" + result);
 

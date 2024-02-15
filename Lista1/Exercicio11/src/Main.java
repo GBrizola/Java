@@ -8,7 +8,7 @@ public class Main {
 
         temperatura = in.nextInt();
 
-        result = (temperatura * 1.8 + 32);
+        result = temperatura * 1.8 + 32;
 
         System.out.println("A Conversão é:" + result + " Fahrenheit");
 

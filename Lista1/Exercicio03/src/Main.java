@@ -8,7 +8,7 @@ public class Main {
 
         n1 = in.nextInt();
 
-        result = (n1 / 5);
+        result = n1 / 5;
 
         System.out.println("A quinta parte do número digitado é:" + result);
 

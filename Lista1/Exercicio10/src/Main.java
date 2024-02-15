@@ -8,7 +8,7 @@ public class Main {
 
         distancia = in.nextInt();
 
-        result = (distancia * 1.609);
+        result = distancia * 1.609;
 
         System.out.println("A Conversão é:" + result + " quilômetros");
 

@@ -8,9 +8,9 @@ public class Main {
 
         velocidade = in.nextInt();
 
-        result = (velocidade / 3.6);
+        result = velocidade / 3.6;
 
-        System.out.println("A Conversão é:" + result + " m/s");
+        System.out.println("A Conversão é: " + result + "m/s");
 
 
     }

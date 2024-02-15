@@ -12,11 +12,11 @@ public class Main {
 
         altura = in.nextInt();
 
-        conta = (raio * raio);
-        conta2 = (3.14 * conta);
-        conta3 = (conta2 * altura);
+        conta = raio * raio;
+        conta2 = 3.14 * conta;
+        conta3 = conta2 * altura;
 
-        result = (conta3 / 3);
+        result = conta3 / 3;
 
 
 

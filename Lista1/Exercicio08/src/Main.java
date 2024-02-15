@@ -8,7 +8,7 @@ public class Main {
 
         medida = in.nextInt();
 
-        result = (medida * 25.4);
+        result = medida * 25.4;
 
         System.out.println("A Conversão é:" + result + " milimetros");
 

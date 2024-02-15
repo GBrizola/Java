@@ -16,8 +16,8 @@ public class Main {
 
         temp = in.nextInt();
 
-        conta = (acel * temp);
-        result = (velIni + conta);
+        conta = acel * temp;
+        result = velIni + conta;
 
 
         System.out.println("A sua velocidade final é:" + result);

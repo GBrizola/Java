@@ -8,9 +8,9 @@ public class Main {
 
         raio = in.nextInt();
 
-        rr = (raio * raio);
+        rr = raio * raio;
 
-        result = (rr * 3.14);
+        result = rr * 3.14;
 
 
 

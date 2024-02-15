@@ -12,13 +12,13 @@ public class Main {
 
         n2 = in.nextInt();
 
-        resultn1 = (n1 * 1);
+        resultn1 = n1 * 1;
 
-        resultn2 = (n2 * 2);
+        resultn2 = n2 * 2;
 
-        result = (resultn1 + resultn2);
+        result = resultn1 + resultn2;
 
-        resultf = (result / 3);
+        resultf = result / 3;
 
         System.out.println("A média da nota é:" + resultf);
 

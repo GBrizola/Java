@@ -12,9 +12,9 @@ public class Main {
 
         altura = in.nextInt();
 
-        conta = (base * altura);
+        conta = base * altura;
 
-        result = (conta / 2);
+        result = conta / 2;
 
 
 
