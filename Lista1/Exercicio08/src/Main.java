@@ -10,7 +10,7 @@ public class Main {
 
         result = medida * 25.4;
 
-        System.out.println("A Conversão é:" + result + " milimetros");
+        System.out.println("A Conversão é:" + result + "milimetros");
 
 
     }
