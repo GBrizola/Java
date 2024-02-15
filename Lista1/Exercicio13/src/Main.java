@@ -8,13 +8,9 @@ public class Main {
 
         raio = in.nextDouble();
 
-        rr = raio * raio;
+        rr = (raio * raio) * 3.14;
 
-        result = rr * 3.14;
-
-
-
-        System.out.println("A sua área é: " + result);
+        System.out.println("A sua área é: " + rr);
 
 
     }
