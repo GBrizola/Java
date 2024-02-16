@@ -2,13 +2,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        double raio, altura, result, conta, conta2, conta3;
+        double raio, altura, result;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite o raio do cilindro:");
+        System.out.println("Digite o raio do cone:");
 
         raio = in.nextDouble();
 
-        System.out.println("Digite a altura do cilindro: ");
+        System.out.println("Digite a altura do cone: ");
 
         altura = in.nextDouble();
 
