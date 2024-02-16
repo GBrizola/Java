@@ -15,5 +15,6 @@ public class Main {
         c = x1 + x2;
 
         System.out.println("A equação a partir de duas raízes é: x² + (" + b + "x) + (" + c + ") = 0");
+
     }
 }
