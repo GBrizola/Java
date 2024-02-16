@@ -12,13 +12,7 @@ public class Main {
 
         altura = in.nextDouble();
 
-        conta = raio * raio;
-        conta2 = 3.14 * conta;
-        conta3 = conta2 * altura;
-
-        result = conta3 / 3;
-
-
+        result = Math.pow(raio, 2) * Math.PI * altura / 3;
 
         System.out.println("O seu Volume é: " + result);
 
