@@ -18,7 +18,7 @@ public class Main {
 
         result = velIni + acel * temp;
 
-        System.out.println("A sua velocidade final é: " + result);
+        System.out.println("A sua velocidade final é: " + result + "m/s");
 
 
     }
