@@ -2,18 +2,18 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        double a, b, result;
+        double a, b, x;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a variavel A: ");
+        System.out.println("Digite o coeficiente A: ");
 
         a = in.nextDouble();
 
-        System.out.println("Digite a variavel B: ");
+        System.out.println("Digite o coeficiente B: ");
 
         b = in.nextDouble();
 
-        result = -b / a;
+        x = -b / a;
 
-        System.out.println("A solução final é: " + result);
+        System.out.println("A solução final de X é: " + x);
     }
 }
