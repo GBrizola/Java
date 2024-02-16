@@ -4,8 +4,8 @@ public class Main {
 
         double medida ,result;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a medida em milímetros: ");
 
+        System.out.println("Digite a medida em milímetros: ");
         medida = in.nextDouble();
 
         result = medida / 25.4;

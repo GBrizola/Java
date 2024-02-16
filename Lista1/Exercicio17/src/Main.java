@@ -4,16 +4,14 @@ public class Main {
 
         double velIni, acel, temp, result;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a velocidade inicial:");
 
+        System.out.println("Digite a velocidade inicial:");
         velIni = in.nextDouble();
 
         System.out.println("Digite a aceleração: ");
-
         acel = in.nextDouble();
 
         System.out.println("Digite o tempo de percurso: ");
-
         temp = in.nextDouble();
 
         result = velIni + acel * temp;

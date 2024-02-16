@@ -4,8 +4,8 @@ public class Main {
 
         double raio, rr;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite o raio do circulo: ");
 
+        System.out.println("Digite o raio do circulo: ");
         raio = in.nextDouble();
 
         rr = Math.pow(raio, 2) * Math.PI;

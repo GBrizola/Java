@@ -4,8 +4,8 @@ public class Main {
 
         double n1, result;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite um número real: ");
 
+        System.out.println("Digite um número real: ");
         n1 = in.nextInt();
 
         result = n1 / 5;

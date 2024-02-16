@@ -4,8 +4,8 @@ public class Main {
 
         double distancia ,result;
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite a distância percorrida em quilômetros: ");
 
+        System.out.println("Digite a distância percorrida em quilômetros: ");
         distancia = in.nextDouble();
 
         result = distancia / 1.609;
