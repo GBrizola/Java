@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        double base, altura, result, conta;
+        double base, altura, result;
         Scanner in = new Scanner(System.in);
         System.out.println("Digite a base do triângulo retângulo: ");
 
@@ -12,13 +12,9 @@ public class Main {
 
         altura = in.nextDouble();
 
-        conta = base * altura;
+        result = base * altura / 2;
 
-        result = conta / 2;
-
-
-
-        System.out.println("A sua área é:" + result);
+        System.out.println("A sua área é: " + result);
 
 
     }
