@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int valor;
-        System.out.println("Digite uma das opções: \n 1 - Domingo \n 2 - Segunda-Feira \n 3 - Terça-Feira" +
+        System.out.println("Digite uma das opções para informar o dia da semana: \n 1 - Domingo \n 2 - Segunda-Feira \n 3 - Terça-Feira" +
                 "\n 4 - Quarta-Feira \n 5 - Quinta-Feira \n 6 - Sexta-Feira \n 7 - Sábado");
         valor = in.nextInt();
 
