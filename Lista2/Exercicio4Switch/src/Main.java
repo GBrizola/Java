@@ -33,11 +33,11 @@ public class Main {
                 System.out.println("Escolha o número de parcelas: ");
                 parc = in.nextInt();
                 if (parc <= 4){
-                    totalPag = valorCompra * (1+(0.02 * parc));
+                    totalPag = valorCompra+valorCompra*0.02;
                     System.out.println("Valor final da compra: R$" + totalPag);
                     break;
                 }else {
-                    totalPag = valorCompra * (1+(0.05 * parc));
+                    totalPag = valorCompra+valorCompra*0.05;
                     System.out.println("Valor final da compra: R$" + totalPag);
                     break;
                 }
