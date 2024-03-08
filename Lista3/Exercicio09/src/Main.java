@@ -5,14 +5,13 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int mult, resposta, resultEsp, jogarDnv;
 
-        for (int tabuada = 1; tabuada <= 10; tabuada++) {
-            System.out.println("Tabuada do " + tabuada + ":");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("Tabuada do " + i + ":");
 
-            for (int i = 1; i <= 10; i++) {
-                mult = i;
-                resultEsp = tabuada * mult;
+            for (int j = 1; j <= 10; j++) {
+                resultEsp = i * j;
 
-                System.out.print(tabuada + " x " + mult + " = ");
+                System.out.print(i + " x " + j + " = ");
                 resposta = in.nextInt();
 
                 if (resposta != resultEsp) {
