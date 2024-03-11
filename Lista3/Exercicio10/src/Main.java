@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n,prim,seg,result;
+        long n,prim,seg,result;
         System.out.print("Digite um valor para gerar a sequência de Fibonacci: ");
         n = in.nextInt();
 
