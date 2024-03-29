@@ -5,7 +5,16 @@ public class Main {
                             {6,7,8,9,0},
                             {0,9,8,7,6},
                             {5,4,3,2,1}};
-        System.out.println("Diagonal secundaria da matriz: " + matriz[0][4] + " " + matriz[1][3] + " " + matriz[2][2] + " " +
-                matriz[3][1] + " " + matriz[4][0]);
+        diag_secundario(matriz);
+    }
+    static void diag_secundario(int [][]m){
+        if(m.length == m[0].length){
+            for(int i = m.length - 1; i >= 0 ; i--){
+                System.out.print(m[m.length - 1 - i][i] + ", ");
+            }
+        }
+        else {
+            System.out.println("A matriz não é quadrada!");
+        }
     }
 }

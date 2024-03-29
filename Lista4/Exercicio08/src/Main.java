@@ -5,7 +5,14 @@ public class Main {
                             {6,7,8,9,0},
                             {0,9,8,7,6},
                             {5,4,3,2,1}};
-        System.out.println("Diagonal primaria da matriz: " + matriz[0][0] + " " + matriz[1][1] + " " + matriz[2][2] + " " +
-                matriz[3][3] + " " + matriz[4][4]);
+        diag_principal(matriz);
+
+    }
+    static void diag_principal(int [][]m){
+        if(m.length == m[0].length){
+            for(int i = 0; i < m.length; i++){
+                System.out.print(m[i][i] + ", ");
+                }
+            }
     }
 }
