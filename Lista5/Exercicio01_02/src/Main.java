@@ -1,17 +1,8 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 import java.util.Scanner;
-
 public class Main {
-    public Main() {
-    }
-
     public static void main(String[] args) {
-        System.out.println("Soma = " + somar(receber()));
         System.out.println("Fatorial = " + fatorial(receber()));
+        System.out.println("Soma = " + somar(receber()));
     }
 
     static int receber() {
@@ -21,28 +12,22 @@ public class Main {
         do {
             System.out.println("Digite um numero maior que 0:");
             n = in.nextInt();
-        } while(n <= 0);
+        } while (n <= 0);
 
         return n;
     }
 
     static int fatorial(int n) {
-        int resultado = 1;
-
-        for(int i = n; i > 1; --i) {
-            resultado *= i;
+        if (n == 1) {
+            return 1;
         }
-
-        return resultado;
+        return n * fatorial(n - 1);
     }
 
     static int somar(int n) {
-        int soma = 0;
-
-        for(int i = 1; i <= n; ++i) {
-            soma += i;
+        if (n == 0) {
+            return 0;
         }
-
-        return soma;
+        return n + somar(n - 1);
     }
 }
