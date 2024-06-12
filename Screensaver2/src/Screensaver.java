@@ -1,5 +1,6 @@
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.util.ArrayList;
 
 @SuppressWarnings("serial")
 public class Screensaver extends javax.swing.JFrame implements Runnable{
@@ -147,10 +148,14 @@ public class Screensaver extends javax.swing.JFrame implements Runnable{
         Graphics g = getBufferStrategy().getDrawGraphics();
 
         // Instancie suas formas geométricas aqui
-        Rectangle r1 = new Rectangle();
-        Rectangle r2 = new Rectangle(200, 200);
-        Rectangle r3 = new Rectangle(200,200,Color.BLUE,50,100, 5, -2);
+        ArrayList<Shape> s = new ArrayList<Shape>();
 
+        for (int i = 0; i < 20; i++){
+            s.add(new Rectangle());
+            s.add(new Ellipse());
+            s.add(new Square());
+            s.add(new Circle());
+        }
 
         // Como num desenho animado, as animações são criadas a partir da sobreposição de frames
         while(true) {
@@ -160,12 +165,10 @@ public class Screensaver extends javax.swing.JFrame implements Runnable{
             g.clearRect(0, 0, getWidth(), getHeight());
 
             // Implemente sua animação aqui.
-            r1.draw(g);
-            r1.move(width,height);
-            r2.draw(g);
-            r2.move(width,height);
-            r3.draw(g);
-            r3.move(width,height);
+            for(Shape shape : s){
+                shape.draw(g);
+                shape.move(width,height);
+            }
 
             // Exibe a tela
             getBufferStrategy().show();
